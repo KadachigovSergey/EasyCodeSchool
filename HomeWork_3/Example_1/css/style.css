@@ -97,32 +97,55 @@ a, h1, p {
 .main {
 	overflow: hidden;
 }
-
 .sitebar {
 	width: 218px;
 	height: 562px;
 	position: relative;
 	float: left;
-	padding: 23px 0 0 25px;
+	padding: 23px 0 0 0;
 	box-sizing: border-box;
 }
 .sitebar li + li {
 	margin-top: 18px;
 }
+.sitebar_menu li{
+	padding-left: 25px;
+}
 .sitebar a {
 	padding-left: 23px; 
 }
-.sitebar a {
+.sitebar .sitebar_menu a {
 	background: url('../img/sitebar_icon.png') no-repeat center left ;
 	font-size: 11px;
 }
-.sitebar a:hover {
+.sitebar .sitebar_menu a:hover {
 	background: url('../img/sitebar_icon_hover.png') no-repeat center left ;
+}
+.img_menu{
+	margin-top: 101px;
+}
+.img_menu li + li{
+	margin-top: 2px;
+}
+.img_menu a{
+	display: inline-block;
+	width: 148px;
+	height: 98px;
+	padding-left: 0;
+	border-radius: 0 50% 50% 0;
+}
+.sitebar .img_menu li:nth-child(1){
+	background: url("../img/sirebar_img_1.png") no-repeat;
+}
+.sitebar .img_menu li:nth-child(2){
+	background: url("../img/sirebar_img_2.png") no-repeat;
+}
+.sitebar .img_menu li:nth-child(3){
+	background: url("../img/sirebar_img_3.png") no-repeat;
 }
 .content {
 	float: left;
 	width: 552px;
-	height: 562px;
 	padding: 20px 20px 0 0;
 	box-sizing: border-box;
 }
@@ -130,13 +153,11 @@ a, h1, p {
 	float: left;
 }
 .text {
-	
 	float: left;
 	padding: 0 0 0 33px;
 	box-sizing: border-box;
 	position: relative;
 	margin-bottom: 15px;
-	height: 250px;
 }
 .text img{
 	margin-right: 30px;
@@ -145,12 +166,11 @@ a, h1, p {
 	font-weight: normal;
 	font-size: 10px;
 	line-height: 1.2;
+	margin-bottom: 15px;
 }
 .text a{
 	font-size: 10px;
-	position: absolute;
-	bottom: 0;
-	right: 0;
+	float: right;
 }
 
 .content h1 {
