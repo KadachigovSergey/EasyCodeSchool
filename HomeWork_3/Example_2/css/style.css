@@ -1,0 +1,194 @@
+body {
+	color: #000;
+	width: 770px;
+	background:url('../img/body_bg.png') no-repeat center #fff;
+	font: 12px/1 arial, helvetica, sans-serif;
+	margin: 0 auto;
+}
+/* General reset =================================================*/
+img {
+	border: none;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #003366;
+}
+ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+a, h1, p {
+	font-family: Verdana ;
+	font-weight: bold;
+}
+
+/*HEADER START ====================================================*/
+.header {
+	height: 233px;
+	background: url('../img/header_bg.png') no-repeat;
+	position: relative; 
+}
+.header .header_nav {
+	float: right;
+	margin-top: 6px;
+}
+.header .header_nav li {
+	float: left;
+	margin: 0 22px;
+}
+.header .header_nav li a {
+	font-size: 10px;
+	color: #003366;
+}
+.header .companyname{
+	position: absolute;
+	right: 45px;
+	top: 53px;
+	font-size: 36px;
+	color: #fff;
+	font-family: Trebuchet MS;
+}
+
+.header .icon_nav {
+	position: absolute;
+	bottom: 38px;
+	right: 150px;
+}
+.header .icon_nav li {
+	float: left;
+	margin:0 13px; 
+}
+.header .icon_nav a {
+	background: url('../img/header_icon.png') no-repeat;
+	display: inline-block;
+}
+.header .icon_nav a.basket { 
+	background-position: -0px -0px; 
+	width: 14px; 
+	height: 9px;
+	margin-top: 3px;
+}
+.header .icon_nav a.mail {
+	background-position: -0px -18px; 
+	width: 11px; 
+	height: 10px;
+}
+.header .icon_nav a.house {
+	background-position: -0px -38px; 
+	width: 11px; 
+	height: 8px;
+}
+.header .icon_nav a.search {
+	background-position: -0px -54px; 
+	width: 11px; 
+	height: 11px;
+	margin-top: 2px;
+}
+.header .icon_nav a.basket:hover {
+	background-position: -0px -9px;
+}
+.header .icon_nav a.mail:hover {
+	background-position: -0px -28px;
+}
+.header .icon_nav a.house:hover {
+	background-position: -0px -46px;
+}
+.header .icon_nav a.search:hover {
+	background-position: -0px -65px;
+}
+
+/*HEADER END ======================================================*/
+
+/*MAIN START ======================================================*/
+.main {
+	overflow: hidden;
+}
+
+.sitebar {
+	width: 218px;
+	position: relative;
+	float: left;
+	padding: 32px 0 0 25px;
+	box-sizing: border-box;
+	background: url('../img/sitebar_menu_bg.png') no-repeat 0px 27px;
+}
+.sitebar li + li {
+	margin-top: 13px;
+}
+.sitebar a {
+	font-size: 11px;
+	color: #fff;
+}
+.sitebar a:hover {
+	color: #003366;
+}
+.sitebar_text{
+	width: 155px;
+	box-sizing: border-box;
+	padding-top: 133px;
+}
+.sitebar_text h1{
+	font-size: 12px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.sitebar_text p{
+	font-size: 10px;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+.content {
+	float: left;
+	width: 552px;
+	padding: 20px 20px 0 0;
+	box-sizing: border-box;
+}
+.text {
+	float: left;
+	padding-bottom: 18px;
+	box-sizing: border-box;
+	position: relative;
+	margin-bottom: 15px;
+}
+.text p {
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 1.2;
+}
+
+.text a {
+	font-size: 10px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #6699cc;
+}
+.text a:hover {
+	color: #003366; 
+}
+.content h1 {
+	font-size: 12px;
+	color:#6699cc;
+	margin: 0 0 15px 0; 
+}
+/*MAIN END ========================================================*/
+
+/*FOOTER START ====================================================*/
+.footer {
+	height: 50px;
+	background: url('../img/footer_bg.png') no-repeat;
+	padding:23px 20px 0 0;
+	box-sizing: border-box;
+}
+.footer p {
+	color:#fff;
+	font: 10px Tahoma;
+	text-align: right;
+
+}
+/*FOOTER END ======================================================*/
