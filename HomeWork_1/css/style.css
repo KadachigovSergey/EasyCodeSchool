@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Rubik');
+body{
+    background: #171a21;
+    font-family: 'Rubik', sans-serif;
+}
+h1, h2, p {
+    text-align: center;
+    color: #bdbbb9;
+}
+.col_red {
+    color: #ff0000;
+}
+p > a {
+    color: #ff994f;
+}
+.formula {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    margin: 75px 0px;
+}
+p.formula > sub, sup {
+    font-size: 22px;
+    margin-right: 5px;
+}
+p.formula > sup {
+    margin-left: 3px;
+    vertical-align: 21px;
+    color: #ff0000;
+}
+p.formula > sub {
+    color:#00f;
+}
+a {
+    color: inherit;
+}
+.row {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+.box {
+    box-sizing:content-box;
+    width: 33.33%;
+    padding-bottom: 33.33%;
+    float: left;
+}
+.box:first-child {
+    background: #20e9bc;
+    outline: 6px solid #fff;
+    outline-offset: -6px;
+}
+.box:nth-child(2){
+    background: #fff;
+    outline: 6px solid #20e9bc;
+    outline-offset: -6px;
+}
+.box:last-child {
+    background: url('../img/bg_box.jpg');
+    background-size: cover;
+
+}
+.examples {
+    width: 130px;
+    margin: 50px auto;
+    padding: 0;
+}
+.examples li {
+    list-style-type: none;
+    border-bottom: 1px dotted #171a21;
+}
+.examples li+li {
+    margin-top: 10px;
+}
+.examples > li > a {
+    text-decoration: none;
+    font-size: 24px;
+}
+.examples li:nth-child(1) {
+    color: #e920d8;
+}
+.examples li:nth-child(2) {
+    color: #e9207b;
+}
+.examples li:nth-child(3) {
+    color: #9d20e9;
+}
+.examples li:nth-child(4) {
+    color: #208be9;
+}
+.examples li:nth-child(5) {
+    color: #20b0e9;
+}
+.indent{
+    margin: 0px 10px 10px 0px;
+}
+.row p{
+    margin-top: 0px;
+    text-align: left;
+}
+/*hover efekt*/
+.examples li:nth-child(1):hover {
+    color: #20b0e9;
+}
+.examples li:nth-child(2):hover {
+    color: #208be9;
+}
+.examples li:nth-child(3):hover {
+    color: #de6f1e;
+}
+.examples li:nth-child(4):hover {
+    color: #e9207b;
+}
+.examples li:nth-child(5):hover {
+    color: #e920d8;
+}
+.examples li:hover {
+    border-bottom: 1px dotted;
+}
+
