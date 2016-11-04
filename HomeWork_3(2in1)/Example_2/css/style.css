@@ -136,7 +136,7 @@ a, h1, p {
 .sitebar_text{
 	width: 180px;
 	box-sizing: border-box;
-    padding: 106px 0 0 25px;
+    padding: 100px 0 0 25px;
 }
 .sitebar_text h1{
 	font-size: 12px;
@@ -157,9 +157,7 @@ a, h1, p {
 }
 .text {
 	float: left;
-	padding-bottom: 18px;
 	box-sizing: border-box;
-	position: relative;
 	margin-bottom: 15px;
 }
 .text p {
@@ -170,9 +168,9 @@ a, h1, p {
 
 .text a {
 	font-size: 10px;
-	position: absolute;
-	bottom: 0;
-	right: 0;
+	display: inline-block;
+	width: 100%;
+	text-align: right;
 	color: #6699cc;
 }
 .text a:hover {
