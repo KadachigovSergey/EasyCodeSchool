@@ -1,0 +1,27 @@
+<div class="header">
+    <div class="container">
+        <div class="logo">
+            <a href="index.php">
+                <img src="img/logo.png" alt="">
+            </a>
+        </div>
+        <div class="header_menu">
+            <ul>
+                <li><a href="about_company_pade.php">О компании</a></li>
+                <li><a href="services_page.php">Услуги</a></li>
+                <li><a href="gallery_page.php">Галерея</a></li>
+                <li><a href="menu_page.php">Меню</a></li>
+                <li><a href="reviews_page.php">Отзывы</a></li>
+                <li><a href="contacts_page.php">Контакты</a></li>
+                <li><a href="news_page.php">Новости</a></li>
+            </ul>
+        </div>
+        <div class="icon">
+            <ul>
+                <li><a class="vk" href="https://vk.com"></a></li>
+                <li><a class="tw" href="https://twitter.com"></a></li>
+                <li><a class="google" href="https://plus.google.com/"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>

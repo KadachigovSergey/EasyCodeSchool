@@ -4,43 +4,17 @@
     <title>Кейтеринг</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet">
     <link media="all" rel="stylesheet" href="css/style.css" type="text/css" >
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
 </head>
 <body>
-
-<div class="header">
-    <div class="container">
-        <div class="logo">
-            <a href="#">
-                <img src="img/logo.png" alt="">
-            </a>
-        </div>
-        <div class="header_menu">
-            <ul>
-                <li><a href="#">О компании</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">Галерея</a></li>
-                <li><a href="#">Меню</a></li>
-                <li><a href="#">Отзывы</a></li>
-                <li><a href="#">Кнтакты</a></li>
-                <li><a href="#">Новости</a></li>
-            </ul>
-        </div>
-        <div class="icon">
-            <ul>
-                <li><a class="vk" href="#"></a></li>
-                <li><a class="tw" href="#"></a></li>
-                <li><a class="google" href="#"></a></li>
-            </ul>
-        </div>
-    </div>
-</div>
+<?php include "include/header.php"?>
 <div class="main">
     <div class="call-to-action vertical-align">
         <div class="call-to-action-text">
             <h1>Wow Catering</h1>
             <span>Ресторан выездного обслуживания</span>
             <br>
-            <a href="#" class="btn">ЗАКАЗАТЬ</a>
+            <a href="javascript:PopUpShow()" class="btn">ЗАКАЗАТЬ</a>
         </div>
     </div>
     <div class="about-us">
@@ -105,19 +79,33 @@
         </div>
     </div>
 </div>
-<div class="footer">
-    <h6>Wow Catering</h6>
-    <p>ул. Гуданова 4\10</p>
-    <p>Харьков, 61024</p>
-    <p>Тел.: (097) 905-05-50</p>
-    <p class="custom_p">CONTACTS<span>@</span>WOWPIZZA.COM.UA</p>
-    <div class="icon">
-        <ul>
-            <li><a class="vk" href="#"></a></li>
-            <li><a class="tw" href="#"></a></li>
-            <li><a class="google" href="#"></a></li>
-        </ul>
-    </div>
+<div id="popup" class="popup vertical-align">
+    <form method="post" class="order">
+        <div class="exit">
+            <a href="javascript:PopUpHide()"></a>
+        </div>
+        <p><span>Ф</span>ОРМА ЗАКАЗА</p>
+        <h1>WOW Catering</h1>
+        <div class="box left">
+            <input type="text" name="fio" placeholder="Имя" required>
+            <input type="tel" name="tel" placeholder="Телефон" required>
+            <input type="email" name="mail" placeholder="E-mail" required>
+        </div>
+        <div class="box right">
+                <select name="menu" size="1">
+                    <option value="" disabled selected style='display:none;'>Выбрать услугу</option>
+                    <option value="first">Первая позиция</option>
+                    <option value="second">Вторая позиция</option>
+                    <option value="third">Третья позиция</option>
+                    <option value="fourth">Четвертая позиция</option>
+                </select>
+            <input class="comment" type="" name="comment" placeholder="Коментарий" required>
+        </div>
+        <a class="btn">Заказать</a>
+
+    </form>
 </div>
+<?php include "include/footer.php"?>
+<script src="js/script.js"></script>
 </body>
-</html>
+
