@@ -357,6 +357,7 @@ h4{
 .order .btn:hover{
     background: #fff;
     color: #d71a37;
+    transition: .5s;
 }
 .popup{
     display: none;
