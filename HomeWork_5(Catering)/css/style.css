@@ -161,7 +161,7 @@ h4{
     line-height: 3.4;
 }
 .call-to-action-text .btn:hover{
-    background: rgba(188,35,54,.5);
+    background: rgba(188,35,54,.3);
     transition: 1.5s;
 }
 .about-us{
@@ -267,6 +267,9 @@ h4{
     background-position: -24px -0px;
 }
 /*MAIN_POPUP*******************************************************************/
+.call-to-action-text .btn:hover{
+    color:#fff;
+}
 .popup{
     position: fixed;
     left:0;
