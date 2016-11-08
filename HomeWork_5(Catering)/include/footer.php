@@ -12,3 +12,10 @@
         </ul>
     </div>
 </div>
+<!--JS-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/jquery.bpopup.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<!--init all jQuery plugin-->
+<script src="js/script.js"></script>
+</body>

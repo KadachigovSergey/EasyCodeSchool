@@ -1,6 +1,9 @@
-function PopUpShow(){
-    $("#popup").show();
-}
-function PopUpHide(){
-    $("#popup").hide();
-}
+//init modal
+$('._order-modal-open').on('click', function (){
+    $('#order').bPopup({
+        closeClass: 'close',
+    });
+});
+
+// formstyler
+$('select').styler();

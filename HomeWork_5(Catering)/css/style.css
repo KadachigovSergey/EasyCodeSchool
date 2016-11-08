@@ -87,6 +87,28 @@ h4{
     padding: 40px 100px;
     line-height: 1.2;
 }
+.form-control{
+    width: 100%;
+    border: 2px solid #b5b5b5;
+    background: #fff;
+    height: 34px;
+    color: #5a5959;
+    font-size: 14px;
+    padding-left: 14px;
+}
+.form-control:focus{
+    border-color: #bc2336;
+}
+
+::-webkit-input-placeholder {color:#5a5959;}
+::-moz-placeholder          {color:#5a5959;}/* Firefox 19+ */
+:-moz-placeholder           {color:#5a5959;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#5a5959;}
+
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
 /* HEADER START *********************************************************************************/
 .header{
     height: 116px;
@@ -266,53 +288,58 @@ h4{
 .icon a.google:hover {
     background-position: -24px -0px;
 }
-/*MAIN_POPUP*******************************************************************/
-.call-to-action-text .btn:hover{
-    color:#fff;
-}
-.popup{
-    position: fixed;
-    left:0;
-    right:0;
-    top:0;
-    bottom:0;
-    background:rgba(0, 0, 0, 0.3);
-    text-align: center;
-    z-index: 9999;
-}
-.popup .order{
-    width: 755px;
-    height: 405px;
+/*MODAL STYLE*/
+.modal{
+    display: none;
     background: #fff;
-    position: relative;
-    padding: 37px 28px 0;
+    width: 755px;
+    min-height: 405px;
+    padding: 20px;
+    text-align: center;
 }
-.order .exit{
-    position: absolute;
-    top: 7px;
-    right: 7px;
-}
-.exit a{
-    display: inline-block;
-    width: 43px;
-    height: 43px;
-    background: url(../img/icon_exit.png) no-repeat center;
-    border-radius: 50%;
-}
-.exit a:hover{
-    background: url(../img/icon_exit_hover.png) no-repeat center #bc2336;
-}
-.popup .order p{
-      font-size: 17px;
-    margin-bottom: 4px;
-}
-.popup .order p span{
-    font-size: 24px;
-}
-.popup .order h1{
-    font-size: 24px;
-    margin-bottom: 35px;
-}
+/*.popup{*/
+    /*position: fixed;*/
+    /*left:0;*/
+    /*right:0;*/
+    /*top:0;*/
+    /*bottom:0;*/
+    /*background:rgba(0, 0, 0, 0.3);*/
+    /*text-align: center;*/
+    /*z-index: 9999;*/
+/*}*/
+/*.popup .order{*/
+    /*width: 755px;*/
+    /*height: 405px;*/
+    /*background: #fff;*/
+    /*position: relative;*/
+    /*padding: 37px 28px 0;*/
+/*}*/
+/*.order .exit{*/
+    /*position: absolute;*/
+    /*top: 7px;*/
+    /*right: 7px;*/
+/*}*/
+/*.exit a{*/
+    /*display: inline-block;*/
+    /*width: 43px;*/
+    /*height: 43px;*/
+    /*background: url(../img/icon_exit.png) no-repeat center;*/
+    /*border-radius: 50%;*/
+/*}*/
+/*.exit a:hover{*/
+    /*background: url(../img/icon_exit_hover.png) no-repeat center #bc2336;*/
+/*}*/
+/*.popup .order p{*/
+      /*font-size: 17px;*/
+    /*margin-bottom: 4px;*/
+/*}*/
+/*.popup .order p span{*/
+    /*font-size: 24px;*/
+/*}*/
+/*.popup .order h1{*/
+    /*font-size: 24px;*/
+    /*margin-bottom: 35px;*/
+/*}*/
 .right{
     float: right;
 }
@@ -330,38 +357,27 @@ h4{
      border:2px solid #b5b5b5;
     padding-left: 15px;
 }
-.box > *:focus{
-    border-color:  #bc2336;
-    outline:none;
-}
-.box > *::-webkit-input-placeholder{
-    font-family: 'Open Sans';
-    color: #000;
- }
-.box > *:-moz-placeholder{
-    font-family: 'Open Sans';
-    color: #000;
-}
-.comment{
-    height: 100px;
-}
-.order .btn{
-    border: 3px solid #d71a37;
-    border-radius: 3px;
-    background: #d71a37;
-    padding: 7px 25px;
-    color: #fff;
-    line-height: 4.4;
-    font-size: 18px;
-}
-.order .btn:hover{
-    background: #fff;
-    color: #d71a37;
-    transition: .5s;
-}
-.popup{
-    display: none;
-}
+
+/*.comment{*/
+    /*height: 100px;*/
+/*}*/
+/*.order .btn{*/
+    /*border: 3px solid #d71a37;*/
+    /*border-radius: 3px;*/
+    /*background: #d71a37;*/
+    /*padding: 7px 25px;*/
+    /*color: #fff;*/
+    /*line-height: 4.4;*/
+    /*font-size: 18px;*/
+/*}*/
+/*.order .btn:hover{*/
+    /*background: #fff;*/
+    /*color: #d71a37;*/
+    /*transition: .5s;*/
+/*}*/
+/*.popup{*/
+    /*display: none;*/
+/*}*/
 /*SERVISE_PAGE*********************************************/
 .service_unit{
     overflow: hidden;
@@ -402,3 +418,4 @@ h4{
     line-height: 1.35;
     padding: 0px 25px;
 }
+

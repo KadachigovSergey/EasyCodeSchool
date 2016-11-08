@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="utf-8" >
-    <title>Кейтеринг</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet">
-    <link media="all" rel="stylesheet" href="css/style.css" type="text/css" >
-    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
-</head>
-<body>
+<!--HEADER START-->
 <?php include "include/header.php"?>
+<!--HEADER AND-->
 <div class="main">
     <div class="call-to-action vertical-align">
         <div class="call-to-action-text">
             <h1>Wow Catering</h1>
             <span>Ресторан выездного обслуживания</span>
             <br>
-            <a href="javascript:PopUpShow()" class="btn">ЗАКАЗАТЬ</a>
+            <a href="#test" class="btn _order-modal-open">ЗАКАЗАТЬ</a>
         </div>
     </div>
     <div class="about-us">
@@ -79,10 +72,11 @@
         </div>
     </div>
 </div>
-<div id="popup" class="popup vertical-align">
-    <form method="post" class="order">
+
+<div class="modal" id="order">
+    <form>
         <div class="exit">
-            <a href="javascript:PopUpHide()"></a>
+            <a href="" class="close"></a>
         </div>
         <p><span>Ф</span>ОРМА ЗАКАЗА</p>
         <h1>WOW Catering</h1>
@@ -102,10 +96,11 @@
             <input class="comment" type="" name="comment" placeholder="Коментарий" required>
         </div>
         <a class="btn">Заказать</a>
-
     </form>
 </div>
+<!--FOOTER START-->
 <?php include "include/footer.php"?>
-<script src="js/script.js"></script>
-</body>
+<!--FOOTER END-->
+
+
 
