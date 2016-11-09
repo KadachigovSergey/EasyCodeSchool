@@ -1,11 +1,4 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="utf-8" >
-    <title>Кейтеринг</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet">
-    <link media="all" rel="stylesheet" href="css/style.css" type="text/css" >
-</head>
-<body>
 <?php include "include/header.php"?>
 <div class="main">
     <div class="container fix_header">

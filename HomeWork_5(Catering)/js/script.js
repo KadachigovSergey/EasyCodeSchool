@@ -1,5 +1,5 @@
 //init modal
-$('._order-modal-open').on('click', function (){
+$('._order_modal_open').on('click', function (){
     $('#order').bPopup({
         closeClass: 'close',
     });

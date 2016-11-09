@@ -1,8 +1,10 @@
 <head>
     <meta charset="utf-8" >
     <title>Кейтеринг</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet">
     <link media="all" rel="stylesheet" href="css/style.css" type="text/css" >
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
 </head>
 <body>
 <div class="header">
