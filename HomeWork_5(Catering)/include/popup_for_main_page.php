@@ -25,8 +25,9 @@
                 </label>
                 <textarea class="form_control comment" placeholder="Коментраий"></textarea>
             </div>
+            <input type="hidden" neme="from_whence" value="form main page">
         </div>
-        <div class="clearflop"></div>
+        <div class="clear_flop"></div>
 
         <button class="btn">Заказать</button>
     </form>

@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet">
     <link media="all" rel="stylesheet" href="css/style.css" type="text/css" >
     <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link href="css/lightbox.css" rel="stylesheet" />
 </head>
 <body>
 <div class="header">

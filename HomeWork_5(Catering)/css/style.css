@@ -47,7 +47,7 @@ input, button, textarea, select{
     box-sizing: border-box;
 }
 .container{
-    width: 1280px;
+    max-width: 1280px;
     padding: 0 10px;
     margin: 0 auto;
 }
@@ -119,17 +119,17 @@ h4{
 
 
 
-::-webkit-input-placeholder {color:#5a5959;}
-::-moz-placeholder          {color:#5a5959;}/* Firefox 19+ */
-:-moz-placeholder           {color:#5a5959;}/* Firefox 18- */
-:-ms-input-placeholder      {color:#5a5959;}
+::-webkit-input-placeholder {color:#6f6e6e;}
+::-moz-placeholder          {color:#6f6e6e;}/* Firefox 19+ */
+:-moz-placeholder           {color:#6f6e6e;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#6f6e6e;}
 
 :focus::-webkit-input-placeholder {color: transparent}
 :focus::-moz-placeholder          {color: transparent}
 :focus:-moz-placeholder           {color: transparent}
 :focus:-ms-input-placeholder      {color: transparent}
 
-.clearflop{
+.clear_flop {
     clear: both;
 }
 /* HEADER START *********************************************************************************/
@@ -426,13 +426,10 @@ h4{
     position: relative;
     text-align: center;
 }
-.service_img{
-
-}
 .service_card img{
     width: 100%;
 }
-.service_card a{
+.service_card a, .service_img a{
     position: absolute;
     bottom:0;
     top: 0;
@@ -503,4 +500,77 @@ h4{
 .gallery_dig{
     width: 50%;
 }
-
+.jq-selectbox.dropup .jq-selectbox__select{
+    border-bottom: none !important;
+}
+/*SERVICE_PAGES**********************************************************************/
+.banner{
+    width: 100%;
+}
+.banner img, .service_img img{
+    width: 100%;
+}
+.subject_service{
+    padding-top: 39px;
+    text-align: center;
+}
+.subject_service .text_normal, .services_order_form .text_normal{
+    font-size: 37px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.subject_service h1{
+    font-size: 36px;
+}
+.subject_service p{
+    font-size: 20px;
+    padding: 29px 120px;
+    line-height: 1.2;
+    font-family: Myriad Pro;
+    font-weight: 400;
+}
+.service_img{
+    font-size: 0;
+    padding: 14px 0px;
+}
+.service_img .gallery{
+    margin-bottom: 20px;
+}
+.service_img a{}
+.banner{
+    background: url(../img/service_banner_1.jpg) no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+.services_order_form{
+    text-align: center;
+    padding: 23px 10px 0;
+}
+.services_order_form .text_normal{
+    margin-bottom: 33px;
+}
+.services_order_form .form_control{
+    height: 55px;
+    margin-bottom: 35px;
+    font-size: 19px;
+    padding-left: 35px;
+    color: #000;
+}
+.services_order_form .right textarea{
+    height: 234px;
+    resize: vertical;
+    padding: 12px 10px 10px 35px;
+    font-size: 20px !important;
+}
+.services_order_form .btn{
+    font-size: 25px;
+    line-height: 1;
+    padding: 20px 72px;
+    border-radius: 4px;
+    background: #bc2336;
+    margin-bottom: 60px;
+}
+.service_img a:hover{
+    background: url(../img/service_img_hover.png) no-repeat center;
+}

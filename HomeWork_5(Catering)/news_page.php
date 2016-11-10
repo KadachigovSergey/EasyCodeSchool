@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <?php include "include/header.php"?>
 <div class="main">
-    <div class="container fix_header">
-    </div>
+    <div class="container fix_header"></div>
     <div class="container">
         <div class="row">
             <div class="subject">

@@ -253,6 +253,8 @@
 .jq-selectbox.focused .jq-selectbox__select{
 	border: 2px solid #d71a37;
 }
+
+
 .jq-selectbox.disabled .jq-selectbox__select {
 	border-color: #CCC;
 	background: #F5F5F5;
@@ -278,7 +280,7 @@
 	right: 0;
 	width: 34px;
 	height: 100%;
-	border-left: 2px solid #b5b5b5;
+	/*border-left: 2px solid #b5b5b5;*/
 }
 .jq-selectbox__trigger-arrow {
 	position: absolute;
@@ -305,7 +307,6 @@
 	box-sizing: border-box;
 	width: 100%;
 	bottom: auto !important;
-	border-radius: 0 0 10px 10px;
 	border-right: 2px solid #d71a37;
 	border-left: 2px solid #d71a37;
 	border-bottom: 2px solid #d71a37;
@@ -354,7 +355,7 @@
 	color: #231F20;
 }
 .jq-selectbox li.selected {
-	background-color: #A3ABB1;
+	background-color: #d71a37;
 	color: #FFF;
 }
 .jq-selectbox li:hover {
