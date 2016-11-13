@@ -20,6 +20,9 @@
 <script src="js/jquery.bpopup.min.js"></script>
 <script src="js/jquery.formstyler.min.js"></script>
 <script src="js/lightbox.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
 <!--init all jQuery plugin-->
 <script src="js/script.js"></script>
 </body>

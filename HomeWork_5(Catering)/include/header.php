@@ -1,11 +1,16 @@
+<!DOCTYPE html>
 <head>
     <meta charset="utf-8" >
     <title>Кейтеринг</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet">
     <link media="all" rel="stylesheet" href="css/style.css" type="text/css" >
     <link rel="stylesheet" href="css/jquery.formstyler.css">
     <link href="css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick_theme.css">
+    <link rel="stylesheet" href="css/slick_nav.css" />
 </head>
 <body>
 <div class="header">

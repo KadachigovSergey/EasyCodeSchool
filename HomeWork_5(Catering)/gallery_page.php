@@ -26,7 +26,7 @@
                     </a>
                 </div>
             </div>
-            <div class="gallery gallery_small">
+            <div class="gallery gallery_small center">
                 <img src="img/gallery_img_3.jpg" alt="">
                 <div class="vertical_align gallery_text">
                     <a href="#" class="vertical_align">

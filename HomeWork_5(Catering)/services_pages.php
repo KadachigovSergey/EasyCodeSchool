@@ -3,7 +3,7 @@
 <?php include "include/header.php"?>
 <!--HEADER AND-->
 <div class="main">
-    <div class="banner"></div>
+    <div class="banner_service_page"></div>
     <div class="container">
         <div class="row">
 

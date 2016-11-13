@@ -142,12 +142,17 @@ h4{
     right: 0;
     z-index: 999;
 }
+.header .container{
+    text-align: center;
+}
 .header img{
     padding: 10px 0 0 10px;
 }
+.slicknav_menu {
+    display: none;
+}
 .logo{
     float: left;
-    margin-right: 225px;
 }
 .header_menu {
     display: inline-block;
@@ -230,7 +235,7 @@ h4{
 }
 .services_wrap {
     font-size: 0;
-    padding: 55px  28px;
+    padding: 55px  5px;
 }
 .service {
     display: inline-block;
@@ -504,10 +509,13 @@ h4{
     border-bottom: none !important;
 }
 /*SERVICE_PAGES**********************************************************************/
-.banner{
+.banner_service_page {
+    background: url(../img/service_banner_1.jpg) no-repeat top center;
+    background-size: cover;
     width: 100%;
+    height: 50vh;
 }
-.banner img, .service_img img{
+.banner_service_page img, .service_img img{
     width: 100%;
 }
 .subject_service{
@@ -537,12 +545,7 @@ h4{
     margin-bottom: 20px;
 }
 .service_img a{}
-.banner{
-    background: url(../img/service_banner_1.jpg) no-repeat top center;
-    background-size: cover;
-    width: 100%;
-    height: 50vh;
-}
+
 .services_order_form{
     text-align: center;
     padding: 23px 10px 0;
@@ -573,4 +576,373 @@ h4{
 }
 .service_img a:hover{
     background: url(../img/service_img_hover.png) no-repeat center;
+}
+
+/*ABOUT COMPANY****************************************************************/
+.banner_about_company{
+    background: url(../img/about_company_banner_1.jpg) no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+.box_for_slider:hover .prev, .box_for_slider:hover .next{
+    display: block !important;
+}
+.box_for_slider {
+    position: relative;
+    padding: 45px 0;
+}
+
+.text_for_about_slider {
+    width: 52%;
+    padding: 45px 100px 0 0;
+    float: right;
+}
+.text_for_about_slider .open_sans{
+    font-family: Open Sans;
+    font-variant: small-caps;
+    margin-bottom: 13px;
+}
+.text_for_about_slider h1{
+    font-size: 36px;
+    margin-bottom: 55px;
+}
+.text_for_about_slider p {
+    font-size: 30px;
+    padding: 0px 28px;
+    line-height: 1.2;
+}
+.omg .item{
+    width: 100%;
+    height: 478px;
+    text-align: center;
+}
+.omg{
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+}
+.col1{
+    background: url("../img/about_compani_slider_img_1.jpg") no-repeat center;
+    background-size: cover;
+}
+.col2{
+    background: url("../img/about_compani_slider_img_1.jpg") no-repeat center;
+    background-size: cover;
+}
+.col3{
+    background: url("../img/about_compani_slider_img_1.jpg") no-repeat center;
+    background-size: cover;
+}
+.col4{
+    background: url("../img/about_compani_slider_img_1.jpg") no-repeat center;
+    background-size: cover;
+}
+.prev, .next{
+    width: 50px;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    width: 65px;
+    display: none !important;
+}
+.prev{
+    left: 0;
+    padding-left: 10px;
+}
+.next{
+    right:0;
+    padding-left: 7px;
+}
+.next img{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+span.arrow_1{
+    height:2px;
+    width: 50px;
+    background: #000;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(43deg);
+}
+span.arrow_2{
+    height:2px;
+    width: 50px;
+    background: #000;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(-43deg);
+}
+.subject.text_after_slider{
+    padding-top: 0;
+}
+.subject.text_after_slider p{
+    padding: 0px 9.5% 55px;
+}
+/*MEDIA**************************************************************************************/
+@media (max-width: 1300px){
+    .container{
+        width: 100%;
+    }
+}
+@media (max-width: 1172px){
+    .service_text{
+        width: 180px;
+        height: 180px;
+        margin-top: -90px;
+        margin-left: -90px;
+    }
+    .service_text a {
+        width: 175px;
+        height: 175px;
+    }
+    .gallery_text {
+        width: 190px;
+        height: 190px;
+        margin-top: -95px;
+        margin-left: -95px;
+    }
+    .gallery_text a {
+        width: 185px;
+        height: 185px;
+    }
+}
+@media (max-width: 949px){
+    .gallery_text {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        margin-top: -80px;
+        margin-left: -80px;
+    }
+    .gallery_text a {
+        width: 155px;
+        height: 155px;
+    }
+    .service_text{
+        width: 200px;
+        height: 200px;
+        margin-top: -100px;
+        margin-left: -100px;
+    }
+    .text_for_about_slider {
+        width: 100%;
+        padding: 45px 100px 0 100px;
+    }
+    .subject p {
+        padding: 40px 5%;
+    }
+    .header_menu li {
+        padding: 5px 4.5px;
+    }
+    .header .icon li+li {
+        margin-left: 19px;
+    }
+    .service_text a {
+        width: 195px;
+        height: 195px;
+    }
+    ul.menu_nav{
+        display: none;
+    }
+    .service{
+        width: 50%;
+    }
+    .service_card {
+        width: 48%;
+        margin: 0 1% 23px;
+    }
+}
+@media (max-width: 767px){
+    .banner_service_page {
+        height: 200px;
+    }
+    .modal {
+        width: 90%;
+        margin: 0 5%;
+    }
+    .gallery_small {
+        width: 50%;
+    }
+    .box {
+        width: 100%;
+        display: inline-block;
+    }
+    .slicknav_menu {
+        display:block;
+        float: right;
+    }
+    .subject.text_after_slider p {
+        padding: 0px 3.5% 55px;
+        font-size: 18px;
+    }
+    .header {
+        height: 75px;
+    }
+    .header img {
+        width: 65px;
+    }
+    .header_menu {
+        display: none;
+    }
+    .header .icon {
+        float: none;
+        display: inline-block;
+        padding-left: 11px;
+    }
+    .header .icon ul {
+        padding: 25px 2px 0 0;
+    }
+    .service_text {
+        width: 180px;
+        height: 180px;
+        margin-top: -90px;
+        margin-left: -90px;
+    }
+    .service_text a {
+        width: 175px;
+        height: 175px;
+    }
+    .service{
+        width: 50%;
+    }
+    .gallery_small {
+         width: 50%;
+     }
+    img {
+        width: 100%;
+    }
+    .gallery_dig {
+        width: 100%;
+    }
+    .center{
+        margin: 0px auto 25px;
+        display: block;
+    }
+
+}
+@media (max-width: 599px){
+    .gallery_small {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    .gallery_dig {
+        width: 100%;
+    }
+
+    .service_text {
+        width: 220px;
+        height: 220px;
+        margin-top: -110px;
+        margin-left: -110px;
+    }
+    .subject p {
+        font-size: 18px;
+    }
+    .text_for_about_slider {
+        width: 100%;
+        padding: 45px 10px 0 10px;
+    }
+    .service_text a {
+        width: 215px;
+        height: 215px;
+    }
+    .about_us p {
+        padding: 0 10px;
+    }
+    .call_to_action{
+        height: 500px;
+    }
+    .service{
+        width: 100%;
+    }
+    .service img{
+        width: 100%;
+    }
+    .service_card p {
+        font-size: 17px;
+        padding: 0 5px;
+    }
+    .service_img {
+        padding: 14px 5%;
+    }
+}
+@media (max-width: 479px){
+    .service_img {
+        padding: 14px 0px;
+    }
+    .gallery_dig .gallery_text{
+        width: 130px;
+        height: 130px;
+        margin-top: -65px;
+        margin-left: -65px;
+    }
+    .gallery_dig .gallery_text a{
+        width: 125px;
+        height: 125px;
+    }
+    .gallery_dig span {
+        width: 98.5%;
+    }
+    .gallery_text a {
+        width: 175px;
+        height: 175px;
+    }
+    .gallery_text {
+        width: 180px;
+        height: 180px;
+        margin-top: -90px;
+        margin-left: -90px;
+    }
+    .gallery_wrap {
+        padding: 55px 5px;
+    }
+
+    .services_order_form .form_control {
+        margin-bottom: 10px;
+        width: 90%;
+    }
+    .box {
+        width: 100%;
+    }
+    .subject_service h1 {
+        font-size: 30px;
+    }
+    .subject_service .text_normal, .services_order_form .text_normal {
+        font-size: 27px;
+    }
+    .gallery_small {
+        width: 100%;
+    }
+    .call_to_action_text h1 {
+        font-size: 50px;
+    }
+    .text_for_about_slider p {
+        font-size: 24px;
+    }
+    .call_to_action_text span {
+        font-size: 15px;
+    }
+    .btn {
+        padding: 12px 85px;
+    }
+    .service_text {
+        width: 190px;
+        height: 190px;
+        margin-top: -95px;
+        margin-left: -95px;
+    }
+    .service_text a {
+        width: 185px;
+        height: 185px;
+    }
+    .service_card {
+        width: 98%;
+        margin: 0 1% 23px;
+    }
 }

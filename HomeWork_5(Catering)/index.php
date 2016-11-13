@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <!--HEADER START-->
 <?php include "include/header.php"?>
 <!--HEADER AND-->
