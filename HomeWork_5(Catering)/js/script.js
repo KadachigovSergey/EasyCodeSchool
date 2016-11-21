@@ -3,7 +3,7 @@
         //init modal
         $('._order_modal_open').on('click', function (){
             $('#order').bPopup({
-                closeClass: 'close',
+                closeClass: 'close'
             });
         });
 
@@ -16,12 +16,12 @@
             nextArrow: '.box_for_slider .next',
             autoplay: true,
             autoplaySpeed: 5000,
-            dots: true,
+            dots: true
         });
         //slick nav
         $('.header_menu').slicknav({
             prependTo: '.header .container',
-            label: '',
+            label: ''
         });
     })
-})(jQuery)
+})(jQuery);

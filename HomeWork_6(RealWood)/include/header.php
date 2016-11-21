@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/jquery.formstyler.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -23,7 +24,7 @@
     <div class="header-top">
         <div class="container">
             <div class="header-logo">
-                <img src="img/logo.png" alt="">
+                <a href="index.php"><img src="img/logo.png" alt=""></a>
             </div>
             <div class="header-text pull-left">
                 <p>Производство и продажа отделочных
@@ -48,12 +49,12 @@
     <div class="header-nav">
         <div class="container">
             <ul class="list-inline pull-left">
-                <li class="active"><a href="#">Продукция</a></li>
-                <li><a href="#">Цены</a></li>
-                <li><a href="#">Фотогалерея</a></li>
-                <li><a href="#">Статьи</a></li>
-                <li><a href="#">Где купить</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li class="active"><a href="products-page.php">Продукция</a></li>
+                <li><a href="price-page.php">Цены</a></li>
+                <li><a href="gallery-page.php">Фотогалерея</a></li>
+                <li><a href="articles-page.php">Статьи</a></li>
+                <li><a href="buy-page.php">Где купить</a></li>
+                <li><a href="contacts-page.php">Контакты</a></li>
             </ul>
             <div class="search-form pull-right">
                 <form>
