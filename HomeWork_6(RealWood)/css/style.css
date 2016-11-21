@@ -973,6 +973,7 @@ sup {
 	display: inline-block;
 	padding: 5px 10px;
 	width: 100%;
+	text-transform: uppercase;
 }
 .block-11 .po-rel:hover a>span{
 	color: #fff;
